@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Times New Roman', Times, serif
+}
+.wrapper{
+    width: 800px;
+    height: 220px;
+    background-color: rgb(255, 242, 238);
+
+}
+.gold{
+    color: gold;
+}
+.box{
+    width:155px;
+    height: 105px;
+    margin: 10px;
+    border: 5px solid #3d405b;
+    align-items: center;
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+    align-content: center;
+}
+h2{
+    align-self: center;
+}
+button {
+    color: white;
+    background: rgb(76, 175, 237);
+    background: linear-gradient(
+      0deg,
+      rgb(228, 194, 3) 50%,
+      rgb(233, 236, 6) 50%
+    );
+    font-size: 13pt;
+    font-weight: 400;
+    border-radius: 5px;
+    text-align: center;
+    border: solid 1px rgb(255, 255, 255);
+    padding: 5px 5px;
+    margin: 5px 5px 5px 32px;
+    display: block;
+    margin-bottom: 5px;
+}
+a{
+    color: rgb(151, 123, 0);
+    font-weight: 700;
+}
